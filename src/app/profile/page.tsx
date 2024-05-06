@@ -4,7 +4,7 @@ import { signOut, useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
-export default function ProfilePage() {
+const ProfilePage=()=> {
 
     const router = useRouter();
     const { data, status } = useSession();
@@ -33,3 +33,4 @@ export default function ProfilePage() {
     </div>
   )
 }
+export default ProfilePage;

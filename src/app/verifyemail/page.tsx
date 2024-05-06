@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 
-export default function VerifyEmailPage() {
+const VerifyEmailPage=()=> {
 
     const router = useRouter();
 
@@ -53,3 +53,4 @@ export default function VerifyEmailPage() {
     </div>
   )
 }
+export default VerifyEmailPage;
