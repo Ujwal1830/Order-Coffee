@@ -33,9 +33,7 @@ const LoginPage =()=> {
 			password: user.password,
 			redirect: false,
 		});
-		if (result?.error) {
-			console.log(" Login failed:: " + result.error);
-		}
+
 		if (result?.url) {
 			router.replace('/profile');
 		}

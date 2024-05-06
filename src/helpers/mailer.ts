@@ -51,6 +51,6 @@ export const sendVerifyEmail = async({email, emailType, userId}: any) =>{
         return mailResponse;
         
     } catch (error: any) {
-        throw console.log(error.message)
+        console.log(error.message)
     }
 }

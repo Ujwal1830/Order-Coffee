@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
@@ -41,7 +40,6 @@ const SignupPage=() => {
       router.push("/verifyemail");
     } catch (error: any) {
       console.log("SignUp Failed");
-      toast.error(error.message);
     } finally {
         setLoading(false);
     }
