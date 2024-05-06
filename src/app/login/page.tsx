@@ -93,7 +93,7 @@ export default function LoginPage() {
 				</form>
 				<div className="mt-4 text-gray-700">
 					<p>
-          				<span>Don't have an account ?</span>
+          			    <span>Do not have an account ?</span>
 						<Link href={'/signup'} className="text-blue-500">
 							Sign Up
 						</Link>
