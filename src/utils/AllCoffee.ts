@@ -1,0 +1,51 @@
+export const AllCoffees = [
+    {
+        id: 0,
+        name: 'Coffee',
+        packSize: '1 gram',
+        minQuantity: 25,
+        price: 50,
+    },
+    {
+        id: 1,
+        name: 'Coffee',
+        packSize: '10 gram',
+        minQuantity: 5,
+        price: 100,
+    },
+    {
+        id: 2,
+        name: 'Coffee',
+        packSize: '50 gram',
+        minQuantity: 1,
+        price: 100,
+    },
+    {
+        id: 3,
+        name: 'Coffee',
+        packSize: '100 gram',
+        minQuantity: 1,
+        price: 200,
+    },
+    {
+        id: 4,
+        name: 'Coffee',
+        packSize: '250 gram',
+        minQuantity: 1,
+        price: 500,
+    },
+    {
+        id: 5,
+        name: 'Coffee',
+        packSize: '500 gram',
+        minQuantity: 1,
+        price: 1000,
+    },
+    {
+        id: 6,
+        name: 'Coffee',
+        packSize: '1000 gram',
+        minQuantity: 1,
+        price: 2000,
+    },
+]
