@@ -32,7 +32,7 @@ export default function Header() {
         <div className="relative opacity-80 z-[-1] flex place-items-center before:absolute before:h-[200px] before:w-full before:-translate-x-1/4 before:rounded-md before:bg-gradient-conic before:from-white before:to-transparent before:blur-xl before:content-[''] after:absolute after:-z-5 after:h-[280px] after:w-full after:-translate-x-1 after:bg-gradient-radial after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-[#dca66d] before:dark:opacity-10 after:dark:from-[#482b0c] after:dark:via-[#854908] after:dark:opacity-20 sm:before:w-[500px] sm:after:w-full">
           <Image
             className="relative w-52 h-52 object-cover opacity-90 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/coffee.png"
+            src="/coffee_logo.png"
             alt="Next.js Logo"
             width={290}
             height={290}
