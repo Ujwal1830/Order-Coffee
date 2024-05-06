@@ -24,10 +24,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunito.className}>
         <AuthProvider session={session}>
-        <CartProvider >
-          <Header />
-          {children}
-        </CartProvider>
+          <CartProvider >
+            <main>
+              <Header />
+              {children}
+            </main>
+          </CartProvider>
         </AuthProvider>
       </body>
     </html>

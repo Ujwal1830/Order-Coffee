@@ -34,7 +34,7 @@ export default function Home() {
 
 
   return (
-      <main className="">
+      <div className="">
         {allCoffees && (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 m-1">
             {allCoffees.map((coffee, index) => (
@@ -42,7 +42,7 @@ export default function Home() {
             ))}
           </div>
         )}
-      </main>
+      </div>
   );
 }
 
