@@ -5,8 +5,6 @@ import bcryptjs from "bcryptjs";
 import { sendVerifyEmail } from "@/helpers/mailer";
 
 
-
-
 export async function POST(request: NextRequest){
     try {
         await connectDB()
