@@ -55,8 +55,7 @@ const CartPage: React.FC = () => {
                             <span className="text-slate-600">Dilevery Charge: </span>
                             {( totalSum >= 50 && totalSum <= 100 ) &&<span className="text-green-600 font-bold">₹100 </span>}
                             {( totalSum > 100 && totalSum <= 200 ) &&<span className="text-green-600 font-bold">₹80 </span>}
-                            {( totalSum > 200 ) 
-                                && (
+                            {( totalSum > 200 ) && (
                                     <div className="flex flex-col">
                                         <span className="text-black line-through text-end">₹80</span>
                                         <span className="text-black underline">Free Delivery</span>
