@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
           });
 
           if (!user) {
-            throw new Error('No user found with this email');
+            console.log('No user found with this email');
           }
 
           const isPasswordCorrect = await bcrypt.compare(
@@ -34,10 +34,10 @@ export const authOptions: NextAuthOptions = {
           if (isPasswordCorrect) {
             return user;
           } else {
-            throw new Error('Incorrect password');
+            onsole.log('Incorrect password');
           }
         } catch (err: any) {
-          throw new Error(err);
+          console.log(err);
         }
       },
     }),
